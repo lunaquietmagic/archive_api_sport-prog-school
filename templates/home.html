@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="shortcut icon"
+            href="{{ url_for('static', filename='favicon.png') }}"
+            type="image/x-icon"
+        />
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='home.css') }}"
+        />
+        <title>Archive API - Главная</title>
+    </head>
+    <body>
+        <main class="main">
+            <h1>Archive API - доступные запросы</h1>
+            <div class="query">
+                <form action="/user_request" method="post" class="query__form">
+                    <input
+                        type="text"
+                        class="query__input"
+                        name="user_request"
+                        placeholder="Введите ваш запрос. Например: /get_game?name=dota2"
+                    />
+                    <button type="submit" class="query__btn">Найти</button>
+                </form>
+            </div>
+            <div class="requests">
+                <div class="multiple-targets">
+                    <h2 class="multiple-targets__heading">
+                        Получение нескольких объектов
+                    </h2>
+                    <ul class="multiple-targets__list">
+                        {% for item in requests["MULTIPLE_TARGETS"] %}
+                        <li class="multiple-targets__item">
+                            <h3 class="multiple-targets__id">#{{ item.id }}</h3>
+                            <h4 class="multiple-targets__request">
+                                {{ item.request }}
+                            </h4>
+                            <p class="multiple-targets__description">
+                                {{ item. description }}
+                            </p>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="single-target">
+                    <h2 class="single-target__heading">
+                        Получение одного объекта
+                    </h2>
+                    <ul class="single-target__list">
+                        {% for item in requests["SINGLE_TARGET"] %}
+                        <li class="single-target__item">
+                            <h3 class="single-target__id">#{{ item.id }}</h3>
+                            <h4 class="single-target__request">
+                                {{ item.request }}
+                            </h4>
+                            <p class="single-target__description">
+                                {{ item. description }}
+                            </p>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

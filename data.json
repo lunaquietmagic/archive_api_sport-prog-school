@@ -1,0 +1,195 @@
+{
+    "films": [
+        {
+            "id": 1,
+            "name": "Властелин колец: Братство Кольца",
+            "genres": ["фэнтези", "приключения"],
+            "poster": "https://upload.wikimedia.org/wikipedia/ru/0/08/The_Lord_of_the_Rings._The_Fellowship_of_the_Ring_%E2%80%94_movie.jpg",
+            "duration": 178,
+            "release_year": 2001
+        },
+        {
+            "id": 2,
+            "name": "Бойцовский клуб",
+            "genres": ["психологический триллер", "драма", "криминал"],
+            "poster": "https://upload.wikimedia.org/wikipedia/ru/8/8a/Fight_club.jpg",
+            "duration": 139,
+            "release_year": 1999
+        },
+        {
+            "id": 3,
+            "name": "Начало",
+            "genres": ["научная фантастика", "боевик", "триллер", "драма"],
+            "duration": 148,
+            "release_year": 2010
+        },
+        {
+            "id": 4,
+            "name": "Большой Лебовски",
+            "genres": ["фарсовая комедия"],
+            "duration": 117,
+            "release_year": 1998
+        },
+        {
+            "id": 5,
+            "name": "История игрушек",
+            "genres": ["комедия"],
+            "duration": 81,
+            "release_year": 1999
+        }
+    ],
+    "games": [
+        {
+            "id": 1,
+            "name": "Ведьмак 3: Дикая Охота",
+            "image": "https://upload.wikimedia.org/wikipedia/ru/a/a2/The_Witcher_3-_Wild_Hunt_Cover.jpg",
+            "genres": ["action RPG"],
+            "release_date_on_pc": "19 мая 2015"
+        },
+        {
+            "id": 2,
+            "name": "Roblox",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Roblox_Logo_2022.svg/1920px-Roblox_Logo_2022.svg.png",
+            "genres": ["система создания игр", "ММО"],
+            "release_date_on_pc": "1 сентября 2006"
+        },
+        {
+            "id": 3,
+            "name": "Cyberpunk 2077",
+            "genres": ["Action/RPG"],
+            "release_date_on_pc": "10 декабря 2020"
+        },
+        {
+            "id": 4,
+            "name": "It Takes Two",
+            "genres": ["action-adventure"],
+            "release_date_on_pc": "26 марта 2021"
+        },
+        {
+            "id": 5,
+            "name": "League of Legends",
+            "genres": ["MOBA"],
+            "release_date_on_pc": "16 октября 2009 года"
+        }
+    ],
+    "anime": [
+        {
+            "id": 1,
+            "name": "Истребитель демонов",
+            "poster": "https://upload.wikimedia.org/wikipedia/en/0/09/Demon_Slayer_-_Kimetsu_no_Yaiba%2C_volume_1.jpg",
+            "genres": ["приключения", "тёмное фэнтези", "боевые искусства"],
+            "first_release": "15 февраля 2016 года"
+        },
+        {
+            "id": 2,
+            "name": "Евангелион",
+            "poster": "https://upload.wikimedia.org/wikipedia/ru/b/b4/Nge1.JPG",
+            "genres": ["меха", "постапокалиптика", "психологическая драма"],
+            "first_release": "4 октября 1995 года"
+        },
+        {
+            "id": 3,
+            "name": "Наруто",
+            "genres": ["боевые искусства", "приключения", "фэнтези"],
+            "first_release": "21 сентября 1999 года"
+        },
+        {
+            "id": 4,
+            "name": "Моя геройская академия",
+            "genres": [
+                "боевик",
+                "фантастика",
+                "приключения",
+                "супергерои",
+                "комедия"
+            ],
+            "first_release": "7 июня 2014 года"
+        },
+        {
+            "id": 5,
+            "name": "Невероятные приключения ДжоДжо",
+            "genres": [
+                "тематика приключения",
+                "ужасы",
+                "боевик",
+                "фэнтези",
+                "мистика",
+                "супергерои"
+            ],
+            "first_release": "1 января 1987 года"
+        }
+    ],
+    "series": [
+        {
+            "id": 1,
+            "name": "Шерлок",
+            "poster": "https://upload.wikimedia.org/wikipedia/ru/4/49/Sherlock_%28TV_series%29.jpg",
+            "genres": ["криминальный детектив", "комедийная драма"],
+            "first_release": "25 июля 2010"
+        },
+        {
+            "id": 2,
+            "name": "Ходячие мертвецы",
+            "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Walking_Dead_2010_logo.svg/1920px-The_Walking_Dead_2010_logo.svg.png",
+            "genres": ["ужасы", "драма", "нео-вестерн", "зомби-апокалипсис"],
+            "first_release": "31 октября 2010"
+        },
+        {
+            "id": 3,
+            "name": "Друзья",
+            "genres": ["ситком"],
+            "first_release": "22 сентября 1994"
+        },
+        {
+            "id": 4,
+            "name": "Доктор Хаус",
+            "genres": ["медицинская драма", "детектив"],
+            "first_release": "16 ноября 2004"
+        },
+        {
+            "id": 5,
+            "name": "Во все тяжкие",
+            "genres": [
+                "криминальная драма",
+                "триллер",
+                "современный вестерн",
+                "чёрная комедия"
+            ],
+            "first_release": "20 января 2008"
+        }
+    ],
+    "books": [
+        {
+            "id": 1,
+            "name": "Гарри Поттер и Кубок огня",
+            "cover": "https://upload.wikimedia.org/wikipedia/ru/c/c7/Harry_Potter_and_the_Goblet_of_Fire.jpg?utm_source=ru.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+            "genres": ["роман", "фэнтези", "драма"],
+            "first_release": "8 июля 2000"
+        },
+        {
+            "id": 2,
+            "name": "Алиса в Стране чудес",
+            "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Alice%27s_Adventures_in_Wonderland_cover_%281865%29.jpg/960px-Alice%27s_Adventures_in_Wonderland_cover_%281865%29.jpg?utm_source=ru.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "genres": ["сказка", "абсурд"],
+            "first_release": "1865 год"
+        },
+        {
+            "id": 3,
+            "name": "Автостопом по Галактике",
+            "genres": ["комедия", "научная фантастика"],
+            "first_release": "12 октября 1979"
+        },
+        {
+            "id": 4,
+            "name": "Остров сокровищ",
+            "genres": ["приключенческий роман"],
+            "first_release": "1883"
+        },
+        {
+            "id": 5,
+            "name": "Скотный двор",
+            "genres": ["притча", "сатира", "антиутопия"],
+            "first_release": "17 августа 1945"
+        }
+    ]
+}
