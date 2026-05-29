@@ -2,7 +2,7 @@
     "films": [
         {
             "id": 1,
-            "name": "Властелин колец: Братство Кольца",
+            "title": "Властелин колец: Братство Кольца",
             "genres": ["фэнтези", "приключения"],
             "poster": "https://upload.wikimedia.org/wikipedia/ru/0/08/The_Lord_of_the_Rings._The_Fellowship_of_the_Ring_%E2%80%94_movie.jpg",
             "duration": 178,
@@ -10,7 +10,7 @@
         },
         {
             "id": 2,
-            "name": "Бойцовский клуб",
+            "title": "Бойцовский клуб",
             "genres": ["психологический триллер", "драма", "криминал"],
             "poster": "https://upload.wikimedia.org/wikipedia/ru/8/8a/Fight_club.jpg",
             "duration": 139,
@@ -18,21 +18,21 @@
         },
         {
             "id": 3,
-            "name": "Начало",
+            "title": "Начало",
             "genres": ["научная фантастика", "боевик", "триллер", "драма"],
             "duration": 148,
             "release_year": 2010
         },
         {
             "id": 4,
-            "name": "Большой Лебовски",
+            "title": "Большой Лебовски",
             "genres": ["фарсовая комедия"],
             "duration": 117,
             "release_year": 1998
         },
         {
             "id": 5,
-            "name": "История игрушек",
+            "title": "История игрушек",
             "genres": ["комедия"],
             "duration": 81,
             "release_year": 1999
@@ -75,27 +75,27 @@
     "anime": [
         {
             "id": 1,
-            "name": "Истребитель демонов",
+            "title": "Истребитель демонов",
             "poster": "https://upload.wikimedia.org/wikipedia/en/0/09/Demon_Slayer_-_Kimetsu_no_Yaiba%2C_volume_1.jpg",
             "genres": ["приключения", "тёмное фэнтези", "боевые искусства"],
             "first_release": "15 февраля 2016 года"
         },
         {
             "id": 2,
-            "name": "Евангелион",
+            "title": "Евангелион",
             "poster": "https://upload.wikimedia.org/wikipedia/ru/b/b4/Nge1.JPG",
             "genres": ["меха", "постапокалиптика", "психологическая драма"],
             "first_release": "4 октября 1995 года"
         },
         {
             "id": 3,
-            "name": "Наруто",
+            "title": "Наруто",
             "genres": ["боевые искусства", "приключения", "фэнтези"],
             "first_release": "21 сентября 1999 года"
         },
         {
             "id": 4,
-            "name": "Моя геройская академия",
+            "title": "Моя геройская академия",
             "genres": [
                 "боевик",
                 "фантастика",
@@ -107,7 +107,7 @@
         },
         {
             "id": 5,
-            "name": "Невероятные приключения ДжоДжо",
+            "title": "Невероятные приключения ДжоДжо",
             "genres": [
                 "тематика приключения",
                 "ужасы",
@@ -122,33 +122,33 @@
     "series": [
         {
             "id": 1,
-            "name": "Шерлок",
+            "title": "Шерлок",
             "poster": "https://upload.wikimedia.org/wikipedia/ru/4/49/Sherlock_%28TV_series%29.jpg",
             "genres": ["криминальный детектив", "комедийная драма"],
             "first_release": "25 июля 2010"
         },
         {
             "id": 2,
-            "name": "Ходячие мертвецы",
+            "title": "Ходячие мертвецы",
             "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Walking_Dead_2010_logo.svg/1920px-The_Walking_Dead_2010_logo.svg.png",
             "genres": ["ужасы", "драма", "нео-вестерн", "зомби-апокалипсис"],
             "first_release": "31 октября 2010"
         },
         {
             "id": 3,
-            "name": "Друзья",
+            "title": "Друзья",
             "genres": ["ситком"],
             "first_release": "22 сентября 1994"
         },
         {
             "id": 4,
-            "name": "Доктор Хаус",
+            "title": "Доктор Хаус",
             "genres": ["медицинская драма", "детектив"],
             "first_release": "16 ноября 2004"
         },
         {
             "id": 5,
-            "name": "Во все тяжкие",
+            "title": "Во все тяжкие",
             "genres": [
                 "криминальная драма",
                 "триллер",
@@ -161,33 +161,33 @@
     "books": [
         {
             "id": 1,
-            "name": "Гарри Поттер и Кубок огня",
+            "title": "Гарри Поттер и Кубок огня",
             "cover": "https://upload.wikimedia.org/wikipedia/ru/c/c7/Harry_Potter_and_the_Goblet_of_Fire.jpg?utm_source=ru.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
             "genres": ["роман", "фэнтези", "драма"],
             "first_release": "8 июля 2000"
         },
         {
             "id": 2,
-            "name": "Алиса в Стране чудес",
+            "title": "Алиса в Стране чудес",
             "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Alice%27s_Adventures_in_Wonderland_cover_%281865%29.jpg/960px-Alice%27s_Adventures_in_Wonderland_cover_%281865%29.jpg?utm_source=ru.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "genres": ["сказка", "абсурд"],
             "first_release": "1865 год"
         },
         {
             "id": 3,
-            "name": "Автостопом по Галактике",
+            "title": "Автостопом по Галактике",
             "genres": ["комедия", "научная фантастика"],
             "first_release": "12 октября 1979"
         },
         {
             "id": 4,
-            "name": "Остров сокровищ",
+            "title": "Остров сокровищ",
             "genres": ["приключенческий роман"],
             "first_release": "1883"
         },
         {
             "id": 5,
-            "name": "Скотный двор",
+            "title": "Скотный двор",
             "genres": ["притча", "сатира", "антиутопия"],
             "first_release": "17 августа 1945"
         }
